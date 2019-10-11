@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Help Form</title>
+    <link href="css/help.css" rel="stylesheet" type="text/css">
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Bungee+Inline|Courgette&display=swap" rel="stylesheet"> 
+
+</head>
+<body>
+    <center><h3 id="head">ESTOHUT CHEATSHEET.</h3></center>
+    <div id="hd2">
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="welcome.php">Home</a>
+            <a href="about.html">About us</a>
+            <a href="house.html">My Houses</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="indexp.php">Landlord/Landlady</a>
+            <a href="Contact.html">Contact Us</a>
+            <a href="help.html">help</a>
+        </div>
+        <span id="pimp" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; MENU</span>         
+    </div>
+    <div class="info">
+        <center>
+                <p>When you login you will be directed to the landing page.To mannover over the application there is a
+                 3 strippedline indicated menu <br>that displays the <b>About us,My Houses, Gallery </b>and <b>Help</b>.
+                you want to view images of some houses we have you can navigate<br> to the Gallery section on the menu.
+                 you want to know more about us you can view the  about us section by clicking the about <br>us section on menu
+                 to navigate on the about us page.To search for a house using our web application you are needed first <br>to click 
+                 the My House selection at the menu bar.you will find a form, fill in the form according to the specifications
+                  of the <br>house you need, you can check your selection by clicking the view selection button.then submit the form.
+                  You will be <br>provided with houses that meet your specifications the contacts of the landlords.it also provides 
+                  some pictures<br> of the residence you are  interested in.
+                       
+                   </p>
+                   <p>For further enquiry or any clarification on the operation of web application you can communicate 
+                       to us through the form below. </p>
+        </center>
+        
+    </div>
+    <div class="container">
+            <div id="ff" class="card">
+                    <div class="card-body">
+                        <form id="helpform" name="myform" onsubmit="event.preventDefault() ; calculator()">
+                            <div class="row">
+                                    <div class="col-sm-6">
+                                            <label for="name">Your name</label><br>
+                                            <input name="tpp" class="name" placeholder="your name" value="name"><br>
+                                    </div>
+                                    <div class="col-sm-6">
+                                            <label for="email">Email</label><br>
+                                            <input type="email" id="email" placeholder="example@gmail.com" value="email">
+                                    </div>
+                            </div><br><br><br><br>
+                           
+                            
+                            
+                            <input type="text" value="" name="TEXTAREA" id="mce-TEXTAREA" placeholder="Your message here..."><br><br><br>
+                            <button type="submit" id="helpbtn"><b>Submit</b></button> 
+                        </form>
+                    </div>
+                </div>
+    </div>
+    
+    
+    <script src="js/jquery-3.4.1.js"></script>
+    <script src="js/scripts.js"></script>
+    
+</body>
+</html>

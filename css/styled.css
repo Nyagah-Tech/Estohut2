@@ -1,0 +1,196 @@
+body{
+    background-color:black;
+    background-size: cover;
+}
+#bottom{
+    position: absolute;
+    top:0%;
+    left: 25%;
+} 
+.goro{
+    position: absolute;
+    top: 0%;
+    left: 20%;
+}
+h2{
+    font-size: 100px;
+    font-family: 'Merienda One', cursive;
+}
+h4{
+    font-family: 'Damion', cursive;
+    font-size: 25px;
+    color: white; 
+}
+p{
+    font-family: 'Marck Script', cursive;
+    font-size: 32px;
+    color: white;
+}
+#toot{
+    position: absolute;
+    top: 30%;
+    font-size: 45px;
+    opacity: 5;
+    font-family: 'Marck Script', cursive;
+    color: black;
+}
+#put{
+    position: absolute;
+    top: 60%;
+    left:20%;
+    font-size: 35px;
+    font-family: 'Damion', cursive;
+    color: rgb(0, 0, 0);
+}
+#keep{
+    position: absolute;
+    top: 0%;
+    left: 85%;
+    float:left;
+}
+#boyz{
+    position: absolute;
+    top: 10%;
+    right:100%;
+    float: right;
+}
+#girlz{
+    position: absolute;
+    top: 60%;
+    right:100%;
+    float: right;
+    transform: translate(-50%, -50%)
+}
+#grow{
+    position: absolute;
+    top: 100%;
+     
+}
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color:rgb(63, 63, 63);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+   }
+   .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 30px;
+    font-family: 'Marck Script', cursive;
+    color: white;
+    display: block;
+    transition: 0.3s;
+   }
+   #pimp{
+    font-family: 'New Rocker', cursive;
+    color: white;  
+   }
+   .sidenav a:hover {
+    color: rgb(109, 1, 109);
+   }
+   .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+   }
+  
+#maindiv{
+    width: 750px;
+    height:420px;
+    position: absolute;
+    top:100%;
+    left:20%;
+    background-image: url(https://img1.cgtrader.com/items/776140/71d793a43e/large/luxurious-ancient-house-3d-model-3d-model-low-poly-max-obj-fbx-mtl.jpg);
+
+    background-image: url(https://i.ytimg.com/vi/OXQpYR3XNZk/hqdefault.jpg);
+  
+    background-image: url(https://robbreport.co.uk/wp-content/uploads/2019/02/tesla-model-22-_-9.jpg?w=1000);
+   
+    background-image: url(https://odis.homeaway.com/odis/listing/4199d50c-726b-4c21-928d-89b773d2154a.c10.jpg);
+    
+    background-image: url(https://www.realestate.com.au/blog/images/1600x1600-fit,progressive/2018/11/02140037/capi_b36147142016a1fb8955eaf3912770f4_7a84986150b7717c877032594424fc5e.jpeg);
+    
+    box-shadow: 1px 2px 10px rgb(0, 0, 0);
+    background-size: 100% 100%;
+    animation: slider 10s infinite linear;
+}
+@keyframes slider{
+    0%{ 
+        background-image: url(https://img1.cgtrader.com/items/776140/71d793a43e/large/luxurious-ancient-house-3d-model-3d-model-low-poly-max-obj-fbx-mtl.jpg);
+     }
+
+    25%{ 
+        background-image: url(https://i.ytimg.com/vi/OXQpYR3XNZk/hqdefault.jpg);
+    }
+    50%{
+        background-image: url(https://robbreport.co.uk/wp-content/uploads/2019/02/tesla-model-22-_-9.jpg?w=1000);
+    }
+
+    75%{
+        background-image: url(https://odis.homeaway.com/odis/listing/4199d50c-726b-4c21-928d-89b773d2154a.c10.jpg);
+    }
+
+    100%{ 
+        background-image: url(https://www.realestate.com.au/blog/images/1600x1600-fit,progressive/2018/11/02140037/capi_b36147142016a1fb8955eaf3912770f4_7a84986150b7717c877032594424fc5e.jpeg);
+    }  
+
+}
+.speak{
+    position: absolute;
+    top:65%;
+    left:21%;
+    font-size: 25px;
+    color: white;  
+}
+h1{
+    /* position: absolute; */
+    text-align: center;
+    font-size: 70px;
+    font-family: 'Merienda One', cursive;
+    color: white;
+}
+h3{
+    font-size: 45px;
+    font-family: 'Damion', cursive;
+    color: white;
+    text-align: center;
+}
+#what{
+    font-size: 20px;
+}
+table{
+    width: 1100px;
+    margin: 40px;
+}
+th{
+    margin: 40px;
+    color: white;
+}
+td{
+    margin: 40px;
+}
+h5{
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    font-family: 'Damion', cursive;
+}
+#why{
+    font-size: 25px;
+    position: absolute;
+    right: 91%;
+
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+   }
